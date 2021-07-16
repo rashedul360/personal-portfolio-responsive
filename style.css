@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  overflow: hidden;
+}
+/* introduce section */
+
+.introduce {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: center;
+}
+.introduce-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.introduce-text {
+  padding: 159px 192px 143px 101px;
+}
+.introduce-text span {
+  color: #ff8367;
+}
+.introduce-img img {
+  width: 500px;
+  margin-right: 69px;
+}
+.hire-me {
+  margin-top: 65px;
+}
+.hire-me a {
+  padding: 14px 50px;
+  text-decoration: none;
+  color: white;
+  background-color: #fa7261;
+  border-radius: 20px;
+}
+/* about section */
+.about-text {
+  margin: 162px 83px 162px 162px;
+}
+.about-me-con {
+  display: flex;
+}
+.about-img img {
+  width: 500px;
+  margin-left: 69px;
+}
+.about-text h1 {
+  font-size: 50px;
+}
+/* my complated prohect */
+.work-project-container {
+  background-color: #f8f9fc;
+  height: 847px;
+}
+.work-project-container h1 {
+  text-align: center;
+
+  font-size: 30px;
+  padding: 141px 0px 66px 0px;
+}
+.work-project-container h1 > span {
+  color: #f46969;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+}
+.project {
+  width: 348px;
+  margin-left: 41px;
+  border-radius: 20px;
+  background-color: white;
+}
+.project img {
+  width: 324px;
+  justify-content: center;
+  padding: 12px;
+}
+
+/* live chat */
+.live-chat {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.live-chat img {
+  width: 50%;
+}
+.live-chat > div > {
+}
+.image {
+  display: flex;
+  justify-content: center;
+}
+.image img {
+  width: 50%;
+}
+/* footer section */
+footer {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+footer h1,
+h3 {
+  text-align: center;
+}
+.p-tag {
+  padding: 3px 0px 0px 30px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+}
+.fab {
+  margin-left: 20px;
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.fab:hover {
+  color: tomato;
+}
+
+/* media query */
+@media (max-width: 668px) {
+  .introduce {
+    flex-direction: column;
+  }
+  .introduce-img img {
+    margin-right: 0;
+  }
+  .about-me-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .project h3,
+  p {
+    padding: 0;
+  }
+  .about-img img {
+  }
+}
